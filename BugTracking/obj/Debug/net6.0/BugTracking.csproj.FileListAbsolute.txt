@@ -265,3 +265,4 @@
 /Users/purnalungeli/Projects/BugTracking/BugTracking/obj/Debug/net6.0/BugTracking.pdb
 /Users/purnalungeli/Projects/BugTracking/BugTracking/obj/Debug/net6.0/BugTracking.genruntimeconfig.cache
 /Users/purnalungeli/Projects/BugTracking/BugTracking/obj/Debug/net6.0/ref/BugTracking.dll
+/Users/purnalungeli/Projects/BugTracking/BugTracking/obj/Debug/net6.0/BugTracking.sourcelink.json

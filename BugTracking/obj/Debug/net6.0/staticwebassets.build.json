@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LpMlNygXgXM9K8rxTFqogCx0qon3wjBreK+SQ+Alez0=",
+  "Hash": "Q26KjBn6Q6I1cVRCpReNVdX6OaAudjclpFjm+8D0tzE=",
   "Source": "BugTracking",
   "BasePath": "_content/BugTracking",
   "Mode": "Default",
@@ -53,6 +53,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/purnalungeli/Projects/BugTracking/BugTracking/obj/Debug/net6.0/scopedcss/projectbundle/BugTracking.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/css/signin.css",
+      "SourceId": "BugTracking",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/",
+      "BasePath": "_content/BugTracking",
+      "RelativePath": "css/signin.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/signin.css"
     },
     {
       "Identity": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/css/site.css",

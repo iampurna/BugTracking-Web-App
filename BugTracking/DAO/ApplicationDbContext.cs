@@ -11,6 +11,9 @@ namespace BugTracking.DAO
 		{
 		}
 		public DbSet<UserGroup> UserGroup { get; set;}
+        public DbSet<Users> Users { get; set; }
+
+
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {
             return base.SaveChangesAsync(cancellationToken);

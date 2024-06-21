@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/BugTracking.bundle.scp.css"
     },
     {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/css/signin.css",
+      "PackagePath": "staticwebassets/css/signin.css"
+    },
+    {
       "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },

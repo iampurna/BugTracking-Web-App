@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace BugTracking.Controllers
 {
-    public class UserGroupController : Controller
+    public class UserGroupController : BaseController
     {
 
         ApplicationDbContext _context;

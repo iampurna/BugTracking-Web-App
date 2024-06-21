@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BugTracking")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+270b7399589d33c6c9f2645f743c47f064496d96")]
 [assembly: System.Reflection.AssemblyProductAttribute("BugTracking")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BugTracking")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
