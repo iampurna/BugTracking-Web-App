@@ -1,0 +1,309 @@
+﻿
+@using BugTracking.Models.ViewModel;
+
+@section HeadSection{
+    <style>
+    </style>
+
+}
+
+
+
+<h4>Welcome to user group page</h4>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-3">
+                        <label>Group Name</label> <br />
+                        <input type="text" class="form-control txtSearchGroupName" />
+                    </div>
+                    <div class="col-md-3">
+                        <label>Group Code</label> <br />
+                        <input type="text" class="form-control txtSearchGroupCode" />
+                    </div>
+                    <div class="col-md-3">
+                        <br />
+                        <button type="button" class="btn btn-success btn-sm btnSearch">
+                            <i class="fa fa-search"></i>
+                        </button>
+                        <button type="button" class="btn btn-primary btn-sm btnNew" style="margin-left:4px;">
+                            <i class="fa fa-plus"></i>  NEW
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="row mt-2">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-body">
+                <table  class="table table-hover dtTable">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Group Name</th>
+                            <th>Group Code</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody class="data-list">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+<div class="modal fade" id="mdlSetup" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Setup Form </h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">User Group Name</label>
+                        <input type="text" class="form-control" id="txtUserGroupName">
+                        <input type="hidden" class="hdnUserGroupID" value="0" />
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">User Group Code</label>
+                        <input type="text" class="form-control" id="txtUserGroupCode">
+                    </div>
+
+
+                    @*<input type="checkbox" class="chkTest" />
+                        $('.chkTest').is(':checked')
+                        $('.chkTest').prop('checked',true)*@
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary btnSubmit"><i class="fa fa-save"></i> Submit</button>
+                <button type="button" class="btn btn-danger btnCancel"><i class="fa fa-refresh"></i> Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts{
+    <script>
+        
+        $(document).ready(function () {
+            loadData();
+            
+        });
+
+        $(document).on('click', '.btnCancel', function () {
+            clearForm();
+        });
+
+
+        $(document).on("click", ".btnSubmit", function () {
+            var grpName = $('#txtUserGroupName').val();
+            var grpCode = $('#txtUserGroupCode').val();
+            var grpID = $('.hdnUserGroupID').val();
+
+            var obj = {
+                UserGroupName: grpName,
+                UserGroupCode: grpCode,
+                UserGroupID: +grpID
+            };
+
+            if (grpName == '') {
+                toastr["error"]("Enter User Group Name")
+            } else if (grpCode == '') {
+                toastr["error"]("Enter User Group Code")
+            } else {
+                $.ajax({
+                    method: 'post',
+                    contentType: "application/json; charset=utf-8",
+                    url: '@Url.Action("Create","UserGroup")',
+                    data: JSON.stringify(obj),
+                    success: function (res) {
+                        if (res.success) {
+                            toastr["success"](res.message);
+                            clearForm();
+                            $('#mdlSetup').modal('hide')
+                            loadData();
+                        } else {
+                            toastr["error"](res.message);
+                        }
+                    },
+                    error: function (e) { },
+                    beforeSend: function () {
+                        //block ui
+                        //$.blockUI();
+                    },
+                    complete: function () {
+                        // unblock ui
+                        //$.unBlockUI();
+                    }
+                });
+            }
+
+
+
+        });
+        //new DataTable('.dtTable', {
+        //    layout: {
+        //        topStart: {
+        //            buttons: ['copy', 'csv', 'excel', 'pdf', 'print']
+        //        }
+        //    }
+        //});
+
+        $(document).on('click', '.btnEdit', function () {
+            var id = $(this).data('key');
+             $.ajax({
+                    method: 'get',
+                    contentType: "application/json; charset=utf-8",
+                 url: '@Url.Action("GetByID","UserGroup")?id=' + id,
+                    success: function (res) {
+                        if (res.success) {
+                            var usergroup = res.data;
+                            $('#txtUserGroupName').val(usergroup.userGroupName);
+                            $('#txtUserGroupCode').val(usergroup.userGroupCode);
+                            $('.hdnUserGroupID').val(usergroup.userGroupID);
+
+                            $('#mdlSetup').modal('show');
+                        } else {
+                            toastr["error"](res.message);
+                        }
+                    },
+                    error: function (e) { },
+                    beforeSend: function () {
+                        //block ui
+                        //$.blockUI();
+                    },
+                    complete: function () {
+                        // unblock ui
+                        //$.unBlockUI();
+                    }
+                });
+        });
+
+
+        $(document).on('click', '.btnDelete', function () {
+            var groupid = $(this).data('key');
+
+
+            var ok = confirm('are you sure to delete data?');
+            if (ok) {
+                $.ajax({
+                    method: 'get',
+                    contentType: "application/json; charset=utf-8",
+                    url: '@Url.Action("Delete","UserGroup")?id=' + groupid,
+                    success: function (res) {
+                        if (res.success) {
+                            toastr["success"](res.message);
+                            loadData();
+                        } else {
+                            toastr["error"](res.message);
+                        }
+                    },
+                    error: function (e) { },
+                    beforeSend: function () {
+                        //block ui
+                        //$.blockUI();
+                    },
+                    complete: function () {
+                        // unblock ui
+                        //$.unBlockUI();
+                    }
+                });
+            }
+
+        });
+
+
+        function clearForm() {
+            $('#txtUserGroupName').val('');
+            $('#txtUserGroupCode').val('');
+            $('.hdnUserGroupID').val('0')
+        }
+
+        $(document).on('click', '.btnSearch', function () {
+            loadData();
+        });
+        $(document).on('click', '.btnNew', function () {
+            $('#mdlSetup').modal('show')
+        });
+
+        //$(document).on('change', '.txtSearchGroupName', function () {
+        //    loadData();
+        //});
+        //$(document).on('change', '.txtSearchGroupCode', function () {
+        //    loadData();
+        //});
+
+        $(document).on('change', '.txtSearchGroupName, .txtSearchGroupCode', function () {
+            loadData();
+        });
+
+
+        function loadData() {
+            var grpName = $('.txtSearchGroupName').val() || '';
+            var grpCode = $('.txtSearchGroupCode').val() || '';
+
+
+            $.ajax({
+                    method: 'get',
+                contentType: "application/json; charset=utf-8",
+                url: '@Url.Action("GetAllData","UserGroup")?grpname=' + grpName + '&grpcode=' + grpCode,
+                    success: function (res) {
+                        if (res.success) {
+                            var allData = res.data;
+
+                            var htmlString = "";
+                            $.each(allData, function (i, x) {
+                                htmlString += "<tr>";
+                                htmlString += "<td>" + (i + 1) + "</td>";
+                                htmlString += "<td>" + x.userGroupName + "</td>";
+                                htmlString += "<td>" + x.userGroupCode + "</td>";
+                                htmlString += "<td>";
+                                htmlString += "<button type='button' class='btn btn-secondary btnEdit btn-sm' data-key='" + x.userGroupID + "'><i class='fa fa-edit'></i> EDIT</button>";
+                                htmlString += "<button type='button' class='btn btn-danger btnDelete btn-sm' style='margin-left:1rem;' data-key='" + x.userGroupID + "'><i class='fa fa-trash'></i> Delete</button>";
+                                htmlString += "</td>";
+                                htmlString += "</tr>";
+                            });
+
+
+                            $('.data-list').html(htmlString);
+
+                            $('.dtTable').DataTable();
+
+
+                        } else {
+                            toastr["error"](res.message);
+                        }
+                    },
+                    error: function (e) { },
+                    beforeSend: function () {
+                        //block ui
+                        //$.blockUI();
+                    },
+                    complete: function () {
+                        // unblock ui
+                        //$.unBlockUI();
+                    }
+                });
+        }
+
+
+    </script>
+
+}
