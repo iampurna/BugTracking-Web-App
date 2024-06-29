@@ -22,12 +22,20 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aGVudGljYXRlL0xvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/purnalungeli/Projects/BugTracking/BugTracking/Views/Authenticate/Temp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aGVudGljYXRlL1RlbXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/purnalungeli/Projects/BugTracking/BugTracking/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/purnalungeli/Projects/BugTracking/BugTracking/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/purnalungeli/Projects/BugTracking/BugTracking/Views/Home/Test.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9UZXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/purnalungeli/Projects/BugTracking/BugTracking/Views/Shared/Error.cshtml]

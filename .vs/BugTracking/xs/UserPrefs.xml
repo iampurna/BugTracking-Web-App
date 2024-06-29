@@ -1,4 +1,37 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{D7A5568A-2592-4881-8D06-8D5975A1F822}|Default">
-  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BugTracking/Views/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="BugTracking/Program.cs" Line="46" Column="44" IsPinned="True" />
+      <File FileName="BugTracking/Controllers/HomeController.cs" Line="7" Column="34" />
+      <File FileName="BugTracking/Views/Shared/_Layout.cshtml" Line="14" Column="43" />
+      <File FileName="BugTracking/Controllers/AuthenticateController.cs" Line="33" Column="30" />
+      <File FileName="BugTracking/Controllers/UserGroupController.cs" Line="1" Column="1" />
+      <File FileName="BugTracking/Views/UserGroup/Index.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BugTracking" expanded="True">
+            <Node name="BugTracking">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Authenticate" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
+                <Node name="UserGroup" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.BugTracking PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

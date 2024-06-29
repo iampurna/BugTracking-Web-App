@@ -1,0 +1,134 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>Signin</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/sign-in/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/sign-in/">-->
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @@media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="~/css/signin.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" integrity="sha512-3pIirOrwegjM6erE5gPSwkUzO+3cTjpnV9lexlNZqvupR64iZBnOOTiiLPb9M36zpMScbmUNIcHUqKD47M719g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="text-center">
+    <form class="form-signin">
+        <img class="mb-4" src="https://broadwayinfosys.com/uploads/logo/1705900306_15549.svg" alt="" width="72" height="72">
+        <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+        <label class="sr-only">UserName </label>
+        <input type="text" id="txtUsername" class="form-control mb-2" autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="txtPassword" class="form-control">
+        <div class="checkbox mb-3">
+            <label>
+                <input type="checkbox" value="remember-me"> Remember me
+            </label>
+        </div>
+        <button class="btn btn-lg btn-primary btn-block btnSignIn" type="button">Sign in</button>
+        <p class="mt-5 mb-3 text-muted">&copy; 2024-2025</p>
+    </form>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $(document).on('click', '.btnSignIn', function () {
+            var username = $('#txtUsername').val() || '';
+            var password = $('#txtPassword').val() || '';
+
+            if (username == '') {
+                alert('Enter Username')
+            } else if (password == '') {
+                alert('Enter Password')
+            } else {
+                // Optionally save username and password to localStorage if "Remember me" is checked
+                if ($('input[type="checkbox"]').is(':checked')) {
+                    localStorage.setItem('USERNAME', username);
+                    localStorage.setItem('PASSWORD', password);
+                }
+                var obj = {
+                    Username: username,
+                    Password: password
+                }
+                $.ajax({
+                    method: 'post',
+                    contentType: "application/json; charset=utf-8",
+                    url: '@Url.Action("SignIn","Authenticate")',
+                    data: JSON.stringify(obj),
+                    success: function (res) {
+                        if (res.success) {
+                            window.location.href = "@Url.Action("Index","UserGroup")";
+                        } else {
+                           alert(res.message)
+                        }
+                    },
+                    error: function (e) { },
+                    beforeSend: function () {
+                        //block ui
+                        //$.blockUI();
+                    },
+                    complete: function () {
+                        // unblock ui
+                        //$.unBlockUI();
+                    }
+                })
+            }
+        });
+        window.onload = function () {
+            var storedUsername = localStorage.getItem('USERNAME');
+            var storedPassword = localStorage.getItem('PASSWORD');
+
+            if (storedUsername) {
+                $('#txtUsername').val(storedUsername);
+            }
+            if (storedPassword) {
+                $('#txtPassword').val(storedPassword);
+            }
+
+        };
+    </script>
+
+    <script>toastr.options = {
+            "closeButton": true,
+            "debug": false,
+            "newestOnTop": false,
+            "progressBar": true,
+            "positionClass": "toast-top-right",
+            "preventDuplicates": false,
+            "onclick": null,
+            "showDuration": "300",
+            "hideDuration": "1000",
+            "timeOut": "5000",
+            "extendedTimeOut": "1000",
+            "showEasing": "swing",
+            "hideEasing": "linear",
+            "showMethod": "fadeIn",
+            "hideMethod": "fadeOut"
+        }</script>
+</body>
+</html>
+

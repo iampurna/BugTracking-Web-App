@@ -5,6 +5,1046 @@
       "PackagePath": "staticwebassets/BugTracking.bundle.scp.css"
     },
     {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/css/nucleo-icons.css",
+      "PackagePath": "staticwebassets/assets/css/nucleo-icons.css"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/css/nucleo-svg.css",
+      "PackagePath": "staticwebassets/assets/css/nucleo-svg.css"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/css/soft-ui-dashboard.css",
+      "PackagePath": "staticwebassets/assets/css/soft-ui-dashboard.css"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/css/soft-ui-dashboard.css.map",
+      "PackagePath": "staticwebassets/assets/css/soft-ui-dashboard.css.map"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/css/soft-ui-dashboard.min.css",
+      "PackagePath": "staticwebassets/assets/css/soft-ui-dashboard.min.css"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/fonts/nucleo-icons.eot",
+      "PackagePath": "staticwebassets/assets/fonts/nucleo-icons.eot"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/fonts/nucleo-icons.svg",
+      "PackagePath": "staticwebassets/assets/fonts/nucleo-icons.svg"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/fonts/nucleo-icons.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/nucleo-icons.ttf"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/fonts/nucleo-icons.woff",
+      "PackagePath": "staticwebassets/assets/fonts/nucleo-icons.woff"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/fonts/nucleo-icons.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/nucleo-icons.woff2"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/fonts/nucleo.eot",
+      "PackagePath": "staticwebassets/assets/fonts/nucleo.eot"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/fonts/nucleo.ttf",
+      "PackagePath": "staticwebassets/assets/fonts/nucleo.ttf"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/fonts/nucleo.woff",
+      "PackagePath": "staticwebassets/assets/fonts/nucleo.woff"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/fonts/nucleo.woff2",
+      "PackagePath": "staticwebassets/assets/fonts/nucleo.woff2"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/apple-icon.png",
+      "PackagePath": "staticwebassets/assets/img/apple-icon.png"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/bruce-mars.jpg",
+      "PackagePath": "staticwebassets/assets/img/bruce-mars.jpg"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/curved-images/curved0.jpg",
+      "PackagePath": "staticwebassets/assets/img/curved-images/curved0.jpg"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/curved-images/curved1.jpg",
+      "PackagePath": "staticwebassets/assets/img/curved-images/curved1.jpg"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/curved-images/curved14.jpg",
+      "PackagePath": "staticwebassets/assets/img/curved-images/curved14.jpg"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/curved-images/curved6.jpg",
+      "PackagePath": "staticwebassets/assets/img/curved-images/curved6.jpg"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/curved-images/curved8.jpg",
+      "PackagePath": "staticwebassets/assets/img/curved-images/curved8.jpg"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/curved-images/white-curved.jpeg",
+      "PackagePath": "staticwebassets/assets/img/curved-images/white-curved.jpeg"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/down-arrow-dark.svg",
+      "PackagePath": "staticwebassets/assets/img/down-arrow-dark.svg"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/down-arrow.svg",
+      "PackagePath": "staticwebassets/assets/img/down-arrow.svg"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/favicon.png",
+      "PackagePath": "staticwebassets/assets/img/favicon.png"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/home-decor-1.jpg",
+      "PackagePath": "staticwebassets/assets/img/home-decor-1.jpg"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/home-decor-2.jpg",
+      "PackagePath": "staticwebassets/assets/img/home-decor-2.jpg"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/home-decor-3.jpg",
+      "PackagePath": "staticwebassets/assets/img/home-decor-3.jpg"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/illustrations/rocket-white.png",
+      "PackagePath": "staticwebassets/assets/img/illustrations/rocket-white.png"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/ivana-square.jpg",
+      "PackagePath": "staticwebassets/assets/img/ivana-square.jpg"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/ivancik.jpg",
+      "PackagePath": "staticwebassets/assets/img/ivancik.jpg"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/kal-visuals-square.jpg",
+      "PackagePath": "staticwebassets/assets/img/kal-visuals-square.jpg"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/logo-ct.png",
+      "PackagePath": "staticwebassets/assets/img/logo-ct.png"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/logos/mastercard.png",
+      "PackagePath": "staticwebassets/assets/img/logos/mastercard.png"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/logos/visa.png",
+      "PackagePath": "staticwebassets/assets/img/logos/visa.png"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/marie.jpg",
+      "PackagePath": "staticwebassets/assets/img/marie.jpg"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/shapes/waves-white.svg",
+      "PackagePath": "staticwebassets/assets/img/shapes/waves-white.svg"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/small-logos/icon-sun-cloud.png",
+      "PackagePath": "staticwebassets/assets/img/small-logos/icon-sun-cloud.png"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/small-logos/logo-atlassian.svg",
+      "PackagePath": "staticwebassets/assets/img/small-logos/logo-atlassian.svg"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/small-logos/logo-invision.svg",
+      "PackagePath": "staticwebassets/assets/img/small-logos/logo-invision.svg"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/small-logos/logo-jira.svg",
+      "PackagePath": "staticwebassets/assets/img/small-logos/logo-jira.svg"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/small-logos/logo-slack.svg",
+      "PackagePath": "staticwebassets/assets/img/small-logos/logo-slack.svg"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/small-logos/logo-spotify.svg",
+      "PackagePath": "staticwebassets/assets/img/small-logos/logo-spotify.svg"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/small-logos/logo-webdev.svg",
+      "PackagePath": "staticwebassets/assets/img/small-logos/logo-webdev.svg"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/small-logos/logo-xd.svg",
+      "PackagePath": "staticwebassets/assets/img/small-logos/logo-xd.svg"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/team-1.jpg",
+      "PackagePath": "staticwebassets/assets/img/team-1.jpg"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/team-2.jpg",
+      "PackagePath": "staticwebassets/assets/img/team-2.jpg"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/team-3.jpg",
+      "PackagePath": "staticwebassets/assets/img/team-3.jpg"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/team-4.jpg",
+      "PackagePath": "staticwebassets/assets/img/team-4.jpg"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/img/vr-bg.jpg",
+      "PackagePath": "staticwebassets/assets/img/vr-bg.jpg"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/js/core/bootstrap.min.js",
+      "PackagePath": "staticwebassets/assets/js/core/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/js/core/popper.min.js",
+      "PackagePath": "staticwebassets/assets/js/core/popper.min.js"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/js/plugins/Chart.extension.js",
+      "PackagePath": "staticwebassets/assets/js/plugins/Chart.extension.js"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/js/plugins/bootstrap-notify.js",
+      "PackagePath": "staticwebassets/assets/js/plugins/bootstrap-notify.js"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/js/plugins/chartjs.min.js",
+      "PackagePath": "staticwebassets/assets/js/plugins/chartjs.min.js"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/js/plugins/choices.min.js",
+      "PackagePath": "staticwebassets/assets/js/plugins/choices.min.js"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/js/plugins/fullcalendar.min.js",
+      "PackagePath": "staticwebassets/assets/js/plugins/fullcalendar.min.js"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/js/plugins/perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets/assets/js/plugins/perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/js/plugins/smooth-scrollbar.min.js",
+      "PackagePath": "staticwebassets/assets/js/plugins/smooth-scrollbar.min.js"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/js/soft-ui-dashboard.js",
+      "PackagePath": "staticwebassets/assets/js/soft-ui-dashboard.js"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/js/soft-ui-dashboard.js.map",
+      "PackagePath": "staticwebassets/assets/js/soft-ui-dashboard.js.map"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/js/soft-ui-dashboard.min.js",
+      "PackagePath": "staticwebassets/assets/js/soft-ui-dashboard.min.js"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_accordion.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_accordion.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_alert.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_alert.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_avatars.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_avatars.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_backgrounds.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_backgrounds.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_badge.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_badge.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_breadcrumbs.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_breadcrumbs.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_buttons.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_buttons.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_cards-extend.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_cards-extend.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_cards.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_cards.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_components.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_components.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_dropdown-extend.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_dropdown-extend.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_dropdown.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_dropdown.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_dropup.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_dropup.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_fixed-plugin.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_fixed-plugin.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_floating-elements.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_floating-elements.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_footer.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_footer.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_forms.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_forms.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_gradients.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_gradients.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_header.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_header.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_info-areas.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_info-areas.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_list-check.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_list-check.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_misc-extend.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_misc-extend.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_misc.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_misc.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_nav.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_nav.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_navbar-vertical-extend.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_navbar-vertical-extend.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_navbar-vertical.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_navbar-vertical.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_navbar.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_navbar.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_pagination.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_pagination.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_popovers.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_popovers.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_progress.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_progress.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_rtl-extend.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_rtl-extend.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_rtl.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_rtl.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_social-buttons.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_social-buttons.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_tables.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_tables.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_tilt.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_tilt.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_timeline.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_timeline.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_tooltips.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_tooltips.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_typography.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_typography.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_utilities-extend.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_utilities-extend.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_utilities.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_utilities.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/_variables.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/_variables.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/badges/_badge-circle.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/badges/_badge-circle.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/badges/_badge-dot.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/badges/_badge-dot.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/badges/_badge-floating.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/badges/_badge-floating.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/badges/_badge.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/badges/_badge.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_accordion.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_accordion.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_alert.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_alert.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_badge.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_badge.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_breadcrumb.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_breadcrumb.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_button-group.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_button-group.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_buttons.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_buttons.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_card.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_card.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_carousel.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_carousel.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_close.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_close.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_containers.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_containers.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_dropdown.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_dropdown.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_forms.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_forms.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_functions.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_functions.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_grid.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_grid.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_helpers.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_helpers.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_images.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_images.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_list-group.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_list-group.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_mixins.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_mixins.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_modal.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_modal.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_nav.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_nav.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_navbar.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_navbar.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_offcanvas.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_offcanvas.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_pagination.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_pagination.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_popover.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_popover.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_progress.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_progress.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_reboot.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_reboot.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_root.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_root.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_spinners.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_spinners.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_tables.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_tables.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_toasts.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_toasts.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_tooltip.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_tooltip.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_transitions.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_transitions.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_type.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_type.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_utilities.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_utilities.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/_variables.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/_variables.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/bootstrap-grid.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/bootstrap-grid.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/bootstrap-reboot.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/bootstrap-utilities.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/bootstrap-utilities.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/bootstrap.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/bootstrap.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/forms/_floating-labels.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/forms/_floating-labels.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/forms/_form-check.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/forms/_form-check.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/forms/_form-control.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/forms/_form-control.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/forms/_form-range.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/forms/_form-range.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/forms/_form-select.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/forms/_form-select.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/forms/_form-text.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/forms/_form-text.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/forms/_input-group.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/forms/_input-group.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/forms/_labels.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/forms/_labels.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/forms/_validation.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/forms/_validation.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/helpers/_clearfix.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/helpers/_clearfix.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/helpers/_colored-links.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/helpers/_colored-links.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/helpers/_position.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/helpers/_position.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/helpers/_ratio.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/helpers/_ratio.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/helpers/_stretched-link.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/helpers/_stretched-link.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/helpers/_text-truncation.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/helpers/_text-truncation.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/helpers/_visually-hidden.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/helpers/_visually-hidden.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/mixins/_alert.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/mixins/_alert.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/mixins/_border-radius.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/mixins/_border-radius.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/mixins/_box-shadow.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/mixins/_box-shadow.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/mixins/_breakpoints.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/mixins/_breakpoints.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/mixins/_buttons.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/mixins/_buttons.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/mixins/_caret.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/mixins/_caret.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/mixins/_clearfix.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/mixins/_clearfix.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/mixins/_color-scheme.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/mixins/_color-scheme.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/mixins/_container.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/mixins/_container.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/mixins/_deprecate.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/mixins/_deprecate.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/mixins/_forms.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/mixins/_forms.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/mixins/_gradients.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/mixins/_gradients.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/mixins/_grid.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/mixins/_grid.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/mixins/_image.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/mixins/_image.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/mixins/_list-group.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/mixins/_list-group.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/mixins/_lists.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/mixins/_lists.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/mixins/_pagination.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/mixins/_pagination.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/mixins/_reset-text.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/mixins/_reset-text.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/mixins/_resize.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/mixins/_resize.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/mixins/_table-variants.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/mixins/_table-variants.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/mixins/_text-truncate.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/mixins/_text-truncate.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/mixins/_transition.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/mixins/_transition.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/mixins/_utilities.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/mixins/_utilities.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/mixins/_visually-hidden.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/mixins/_visually-hidden.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/utilities/_api.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/utilities/_api.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/bootstrap/vendor/_rfs.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/bootstrap/vendor/_rfs.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/cards/card-background.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/cards/card-background.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/cards/card-blog.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/cards/card-blog.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/cards/card-horizontal.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/cards/card-horizontal.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/cards/card-pricing.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/cards/card-pricing.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/cards/card-profile.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/cards/card-profile.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/custom/_styles.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/custom/_styles.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/custom/_variables.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/custom/_variables.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/forms/_form-check.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/forms/_form-check.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/forms/_form-select.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/forms/_form-select.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/forms/_form-switch.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/forms/_form-switch.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/forms/_forms.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/forms/_forms.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/forms/_input-group.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/forms/_input-group.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/forms/_inputs.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/forms/_inputs.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/forms/_labels.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/forms/_labels.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/mixins/_badge.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/mixins/_badge.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/mixins/_colored-shadows.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/mixins/_colored-shadows.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/mixins/_hover.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/mixins/_hover.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/mixins/_social-buttons.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/mixins/_social-buttons.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/mixins/mixins.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/mixins/mixins.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/plugins/free/_flatpickr.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/plugins/free/_flatpickr.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/plugins/free/_nouislider.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/plugins/free/_nouislider.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/plugins/free/_perfect-scrollbar.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/plugins/free/_perfect-scrollbar.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/plugins/free/_prism.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/plugins/free/_prism.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/plugins/free/plugins.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/plugins/free/plugins.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/plugins/pro/_carousel-slick.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/plugins/pro/_carousel-slick.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/plugins/pro/_choices.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/plugins/pro/_choices.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/plugins/pro/_datatable-extend.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/plugins/pro/_datatable-extend.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/plugins/pro/_datatable.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/plugins/pro/_datatable.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/plugins/pro/_dragula.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/plugins/pro/_dragula.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/plugins/pro/_dropzone.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/plugins/pro/_dropzone.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/plugins/pro/_fullcalendar-extend.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/plugins/pro/_fullcalendar-extend.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/plugins/pro/_fullcalendar.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/plugins/pro/_fullcalendar.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/plugins/pro/_glidejs.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/plugins/pro/_glidejs.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/plugins/pro/_highlight.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/plugins/pro/_highlight.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/plugins/pro/_kanban.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/plugins/pro/_kanban.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/plugins/pro/_leaflet.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/plugins/pro/_leaflet.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/plugins/pro/_list-check.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/plugins/pro/_list-check.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/plugins/pro/_photoswipe.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/plugins/pro/_photoswipe.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/plugins/pro/_quill.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/plugins/pro/_quill.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/plugins/pro/_rating-widget.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/plugins/pro/_rating-widget.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/plugins/pro/_sweetalert2-extend.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/plugins/pro/_sweetalert2-extend.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/plugins/pro/_sweetalert2.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/plugins/pro/_sweetalert2.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/plugins/pro/multi-step.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/plugins/pro/multi-step.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/plugins/pro/plugins-extend.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/plugins/pro/plugins-extend.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/theme-pro.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/theme-pro.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/theme.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/theme.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/variables/_animations.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/variables/_animations.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/variables/_avatars.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/variables/_avatars.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/variables/_badge.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/variables/_badge.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/variables/_breadcrumb.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/variables/_breadcrumb.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/variables/_cards-extend.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/variables/_cards-extend.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/variables/_cards.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/variables/_cards.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/variables/_choices.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/variables/_choices.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/variables/_dropdowns.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/variables/_dropdowns.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/variables/_fixed-plugin.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/variables/_fixed-plugin.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/variables/_form-switch.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/variables/_form-switch.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/variables/_full-calendar.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/variables/_full-calendar.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/variables/_header.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/variables/_header.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/variables/_info-areas.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/variables/_info-areas.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/variables/_misc-extend.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/variables/_misc-extend.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/variables/_misc.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/variables/_misc.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/variables/_navbar-vertical.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/variables/_navbar-vertical.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/variables/_navbar.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/variables/_navbar.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/variables/_pagination.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/variables/_pagination.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/variables/_rtl.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/variables/_rtl.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/variables/_social-buttons.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/variables/_social-buttons.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/variables/_table.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/variables/_table.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/variables/_timeline.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/variables/_timeline.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/variables/_utilities-extend.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/variables/_utilities-extend.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/variables/_utilities.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/variables/_utilities.scss"
+    },
+    {
+      "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/assets/scss/soft-ui-dashboard/variables/_virtual-reality.scss",
+      "PackagePath": "staticwebassets/assets/scss/soft-ui-dashboard/variables/_virtual-reality.scss"
+    },
+    {
       "Id": "/Users/purnalungeli/Projects/BugTracking/BugTracking/wwwroot/css/signin.css",
       "PackagePath": "staticwebassets/css/signin.css"
     },

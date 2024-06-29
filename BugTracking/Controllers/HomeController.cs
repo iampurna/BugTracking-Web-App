@@ -4,7 +4,7 @@ using BugTracking.Models;
 
 namespace BugTracking.Controllers;
 
-public class HomeController : BaseController
+public class HomeController :Controller
 {
     private readonly ILogger<HomeController> _logger;
 
@@ -17,7 +17,10 @@ public class HomeController : BaseController
     {
         return View();
     }
-
+    public IActionResult Test()
+    {
+        return View();
+    }
     public IActionResult Privacy()
     {
         return View();
