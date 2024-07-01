@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿
 using BugTracking.DAO;
 using BugTracking.Models;
 using BugTracking.Models.ViewModel;

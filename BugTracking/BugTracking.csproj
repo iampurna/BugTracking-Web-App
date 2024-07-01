@@ -24,11 +24,13 @@
     <None Remove="Models\ViewModel\" />
     <None Remove="Views\UserGroup\" />
     <None Remove="Views\Authenticate\" />
+    <None Remove="Views\Tracking\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DAO\" />
     <Folder Include="Models\ViewModel\" />
     <Folder Include="Views\UserGroup\" />
     <Folder Include="Views\Authenticate\" />
+    <Folder Include="Views\Tracking\" />
   </ItemGroup>
 </Project>
