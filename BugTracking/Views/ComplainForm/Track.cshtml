@@ -1,0 +1,100 @@
+﻿@using BugTracking.Models.ViewModel;
+
+<h4>Tracking </h4>
+<div class='row'>
+    <div class='col-md-12 mb-2'>
+        <div class='card'>
+            <div class='card-body'>
+                <div class='row'>
+                    <div class="col-md-3 ">
+                        <label>CustumerNo</label><br />
+                        <input tpye="text" class=" form-control txtSCustomerNo " />
+                    </div>
+                    <div class="col-md-3 ">
+                        <br />
+                        <button type="button" class=" btn btn-success btn-md btnSearch">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-body" style="overflow:auto">
+                <table class="table table-hover dtTable ">
+                    <thead>
+                        <tr>
+                            <th>SN</th>
+                            <th>ComplainInfoID</th>
+                            <th>ComplainNo</th>
+                            <th>Fullname</th>
+                            <th>Email</th>
+                            <th>ContactNo</th>
+                            <th>Statement</th>
+                            <th>Address</th>
+                            <th>IssueDate</th>
+                            <th>CreatedDate</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody class="data-list">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <script>
+        $(document).on('click', '.btnSearch', function () {
+            loadData();
+        });
+        function loadData() {
+            var Customerno = $('.txtSCustomerNo').val() || '';
+            $.ajax({
+                method: 'get',
+                contentType:"application/json: charset=utf-8",
+                url: '@Url.Action("GetAllData", "ComplainForm")?CUSTOMERNO=' + Customerno,
+                success: function (res) {
+                    if (res.success) {
+                        var allData = res.data;
+                        var htmlString = "";
+                        $.each(allData, function (i, x) {
+                            htmlString += "<tr>";
+                            htmlString += "<td>" +(i+1) + "</td>";
+                            htmlString += "<td>"+  x.complainInfoID+ "</td>";
+                            htmlString += "<td>"+ x.complainNo + "</td>";
+                            htmlString += "<td>" +x.fullname + "</td>";
+                            htmlString += "<td>"+  x.email + "</td>";
+                            htmlString += "<td>"+ x.contactNo+ "</td>";
+                            htmlString += "<td>"+ x.statement + "</td>";
+                            htmlString += "<td>" +x.address + "</td>";
+                            htmlString += "<td>"+  x.issueDate+ "</td>";
+                            htmlString += "<td>"+ x.createdDate+ "</td>";
+                            htmlString +="<td>";
+                            htmlString += "<button type= 'button' class='btn btn-secondary btnEdit btn-sm' data-key='" +x.complainInfoID + "'>Edit</button>";
+                            htmlString +=" <button type= 'button' class='btn btn-success btnTrack btn-sm' data-key='" +x.complainInfoID +"'>Track</button>";
+                            htmlString +="</td>";
+                            htmlString += "</tr>";
+                        });
+                        $('.data-list').html(htmlString);
+                        $('.dtTable').DataTable();
+                    } else {
+                    }
+                },
+                error: function (e) { },
+                beforesend: function () {
+                    //
+                },
+                complete: function () {
+                    //$.unblockui();
+                }
+            });
+            }
+    </script>
+}

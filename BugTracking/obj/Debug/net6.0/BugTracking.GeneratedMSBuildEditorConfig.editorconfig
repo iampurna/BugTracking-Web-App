@@ -26,6 +26,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXV0aGVudGljYXRlL1RlbXAuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/purnalungeli/Projects/BugTracking/BugTracking/Views/ComplainForm/Form.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcGxhaW5Gb3JtL0Zvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/purnalungeli/Projects/BugTracking/BugTracking/Views/ComplainForm/Track.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29tcGxhaW5Gb3JtL1RyYWNrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/purnalungeli/Projects/BugTracking/BugTracking/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -44,14 +52,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/purnalungeli/Projects/BugTracking/BugTracking/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/purnalungeli/Projects/BugTracking/BugTracking/Views/Tracking/Dashboard.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHJhY2tpbmcvRGFzaGJvYXJkLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/Users/purnalungeli/Projects/BugTracking/BugTracking/Views/Tracking/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVHJhY2tpbmcvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/purnalungeli/Projects/BugTracking/BugTracking/Views/UserGroup/Index.cshtml]

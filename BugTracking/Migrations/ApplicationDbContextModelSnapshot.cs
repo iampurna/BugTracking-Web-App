@@ -22,7 +22,7 @@ namespace BugTracking.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("BugTracking.Models.ComplainInfo", b =>
+            modelBuilder.Entity("BugTracking.Models.Complain", b =>
                 {
                     b.Property<int>("ComplainInfoID")
                         .ValueGeneratedOnAdd()
@@ -36,20 +36,18 @@ namespace BugTracking.Migrations
 
                     b.Property<string>("ComplainNo")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ContactNo")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("CreatedDate")
+                    b.Property<DateTime?>("CreatedDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("CustomerNo")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -57,10 +55,9 @@ namespace BugTracking.Migrations
 
                     b.Property<string>("Fullname")
                         .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("IssueDate")
+                    b.Property<DateTime?>("IssueDate")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Statement")
@@ -69,39 +66,7 @@ namespace BugTracking.Migrations
 
                     b.HasKey("ComplainInfoID");
 
-                    b.ToTable("ComplainInfos");
-                });
-
-            modelBuilder.Entity("BugTracking.Models.ComplainStatus", b =>
-                {
-                    b.Property<int>("ComplainStatusID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ComplainStatusID"), 1L, 1);
-
-                    b.Property<int>("CreatedBy")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsActive")
-                        .HasColumnType("bit");
-
-                    b.Property<string>("StatusCode")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<string>("StatusName")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
-
-                    b.HasKey("ComplainStatusID");
-
-                    b.ToTable("ComplainStatuses");
+                    b.ToTable("Complain");
                 });
 
             modelBuilder.Entity("BugTracking.Models.ComplainStatusTrackInfo", b =>
@@ -130,39 +95,9 @@ namespace BugTracking.Migrations
 
                     b.HasKey("ComplainStatusTrackInfoID");
 
-                    b.ToTable("ComplainStatusTrackInfos");
-                });
+                    b.HasIndex("ComplainInfoID");
 
-            modelBuilder.Entity("BugTracking.Models.ComplainType", b =>
-                {
-                    b.Property<int>("ComplainTypeID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ComplainTypeID"), 1L, 1);
-
-                    b.Property<string>("ComplainCode")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.Property<string>("ComplainName")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
-
-                    b.Property<int>("CreatedBy")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("datetime2");
-
-                    b.Property<bool>("IsActive")
-                        .HasColumnType("bit");
-
-                    b.HasKey("ComplainTypeID");
-
-                    b.ToTable("ComplainTypes");
+                    b.ToTable("ComplainStatusTrackInfo");
                 });
 
             modelBuilder.Entity("BugTracking.Models.UserGroup", b =>
@@ -236,6 +171,17 @@ namespace BugTracking.Migrations
                     b.HasKey("UsersID");
 
                     b.ToTable("Users");
+                });
+
+            modelBuilder.Entity("BugTracking.Models.ComplainStatusTrackInfo", b =>
+                {
+                    b.HasOne("BugTracking.Models.Complain", "Complain")
+                        .WithMany()
+                        .HasForeignKey("ComplainInfoID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Complain");
                 });
 #pragma warning restore 612, 618
         }
