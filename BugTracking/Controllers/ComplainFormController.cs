@@ -34,7 +34,7 @@ namespace BugTracking.Controllers
         {
             List<ComplainVM> u = _context
                             .Complain
-                            .Where(x => x.CustomerNo == CUSTOMERNO && (string.IsNullOrEmpty(CUSTOMERNO) || x.CustomerNo == CUSTOMERNO))
+                            .Where(x => (string.IsNullOrEmpty(CUSTOMERNO) || x.CustomerNo == CUSTOMERNO))
 
                             .Select(s => new ComplainVM
                             {
@@ -58,7 +58,7 @@ namespace BugTracking.Controllers
             });
         }
         [HttpGet]
-        public JsonResult Create( string CUSTOMERID, string FULLNAME, string ADDRESS, string CONTACTNO, string EMAIL, string STATEMENT, string ISSUEDATE)
+        public JsonResult Create(string CUSTOMERID, string FULLNAME, string ADDRESS, string CONTACTNO, string EMAIL, string STATEMENT, string ISSUEDATE)
         {
             if (string.IsNullOrEmpty(CUSTOMERID))
             {
@@ -123,13 +123,12 @@ namespace BugTracking.Controllers
                     Message = "Enter Your Issue Occur Date!..."
                 });
             }
-
             else
             {
-                string cmp ="CMP-" + (_context.Complain.Count() + 1).ToString();
+                string cmp = "CMP-" + (_context.Complain.Count() + 1).ToString();
                 Complain c = new Complain
                 {
-                    ComplainNo= cmp,
+                    ComplainNo = cmp,
                     CustomerNo = CUSTOMERID,
                     Fullname = FULLNAME,
                     Address = ADDRESS,
@@ -142,6 +141,7 @@ namespace BugTracking.Controllers
 
                 _context.Complain.Add(c);
                 _context.SaveChanges();
+
 
                 ComplainStatusTrackInfo ti = new ComplainStatusTrackInfo()
                 {
@@ -163,6 +163,64 @@ namespace BugTracking.Controllers
                 });
             }
 
+        }
+
+        [HttpGet]
+        public JsonResult GetByComplainNo(string no, int id)
+        {
+            ComplainVM complain = _context.Complain
+                .Where(x =>
+                       (string.IsNullOrEmpty(no) || x.ComplainNo == no)
+                       && (id == 0 || x.ComplainInfoID == id)
+                )
+                .Select(s => new ComplainVM
+                {
+                    Address = s.Address,
+                    ComplainInfoID = s.ComplainInfoID,
+                    ComplainNo = s.ComplainNo,
+                    ContactNo = s.ContactNo,
+                    CreatedDate = s.CreatedDate,
+                    CustomerNo = s.CustomerNo,
+                    Email = s.Email,
+                    Fullname = s.Fullname,
+                    IssueDate = s.IssueDate,
+                    Statement = s.Statement,
+                })
+                .FirstOrDefault();
+
+
+            if (complain == null)
+            {
+                return Json(new
+                {
+                    success = false,
+                    Message = "Complain Info Not Found..."
+                });
+            }
+            else
+            {
+                complain.TrackInfos = _context.ComplainStatusTrackInfo
+                .Where(x => x.ComplainInfoID == complain.ComplainInfoID)
+                .Select(s => new ComplainStatusTrackInfoVM
+                {
+                    ComplainInfoID = s.ComplainInfoID,
+                    ComplainStatusTrackInfoID = s.ComplainStatusTrackInfoID,
+                    CreatedBy = s.CreatedBy,
+                    CreatedDate = s.CreatedDate,
+                    Remarks = s.Remarks.ToString(),
+                    TargetStatusID = s.TargetStatusID,
+                    TargetStatusName = s.ComplainStatus.StatusName,
+                    TargetStatusCode = s.ComplainStatus.StatusCode
+                })
+                .ToList();
+
+                return Json(new
+                {
+                    success = true,
+                    Message = "Complain Info Found...",
+                    Data = complain
+                });
+            }
         }
     }
 }

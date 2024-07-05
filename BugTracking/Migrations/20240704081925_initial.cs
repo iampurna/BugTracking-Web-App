@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace BugTracking.Migrations
 {
-    public partial class initialmigration : Migration
+    public partial class initial : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -14,8 +14,8 @@ namespace BugTracking.Migrations
                 columns: table => new
                 {
                     ComplainInfoID = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    ComplainNo = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    .Annotation("SqlServer:Identity", "1, 1"),
+                    ComplainNo = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Fullname = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     ContactNo = table.Column<string>(type: "nvarchar(max)", nullable: false),
@@ -28,6 +28,23 @@ namespace BugTracking.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Complain", x => x.ComplainInfoID);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "ComplainStatus",
+                columns: table => new
+                {
+                    ComplainStatusID = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    StatusName = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    StatusCode = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    IsActive = table.Column<bool>(type: "bit", nullable: false),
+                    CreatedDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    CreatedBy = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_ComplainStatus", x => x.ComplainStatusID);
                 });
 
             migrationBuilder.CreateTable(
@@ -88,12 +105,23 @@ namespace BugTracking.Migrations
                         principalTable: "Complain",
                         principalColumn: "ComplainInfoID",
                         onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_ComplainStatusTrackInfo_ComplainStatus_TargetStatusID",
+                        column: x => x.TargetStatusID,
+                        principalTable: "ComplainStatus",
+                        principalColumn: "ComplainStatusID",
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
                 name: "IX_ComplainStatusTrackInfo_ComplainInfoID",
                 table: "ComplainStatusTrackInfo",
                 column: "ComplainInfoID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_ComplainStatusTrackInfo_TargetStatusID",
+                table: "ComplainStatusTrackInfo",
+                column: "TargetStatusID");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -109,6 +137,9 @@ namespace BugTracking.Migrations
 
             migrationBuilder.DropTable(
                 name: "Complain");
+
+            migrationBuilder.DropTable(
+                name: "ComplainStatus");
         }
     }
 }

@@ -14,7 +14,7 @@ namespace BugTracking.DAO
         public DbSet<Users> Users { get; set; }
         public DbSet<Complain> Complain { get; set; }
         public DbSet<ComplainStatusTrackInfo> ComplainStatusTrackInfo { get; set; }
-
+        public DbSet<ComplainStatus> ComplainStatus { get; set; }
 
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = default)
         {

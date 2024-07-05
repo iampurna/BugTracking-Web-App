@@ -49,8 +49,115 @@
         </div>
     </div>
 </div>
+<div class="modal fade" id="mdlComplainDetail" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Complain Detail</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="card">
+                            <div class="card-body">
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <label><u>Complain No</u></label><br />
+                                        <label class="lblComplainNo"></label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label><u>Fullname</u></label><br />
+                                        <label class="lblFullname"></label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label><u>Email</u></label><br />
+                                        <label class="lblEmail"></label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label><u>Statement</u></label><br />
+                                        <label class="lblStatement"></label>
+                                    </div>
+                                </div>
+
+                                <div class="row mt-2" style="overflow:auto;">
+                                    <h4>Track Info</h4>
+                                    <table class="table table-hover table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>Status Name</th>
+                                                <th>Remarks</th>
+                                                <th>Date</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody class="bodyTrackInfo"></tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <label>Targe Status</label><br />
+                                <select class="form-control ddlComplainStatus">
+                                </select> <br />
+
+                                <label>Remarks</label><br />
+                                <input type="text" class="form-control txtRemarks" />
+
+                                <div class="card-footer">
+                                    <input type="hidden" value="0" class="hdnComplainID" />
+                                    <button type="button" class="btn btn-primary btnSubmit"><i class="fa fa-save"></i> Submit</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+ </div>
 @section Scripts {
+
+
     <script>
+        $(document).ready(function () {
+            loadData();
+            loadComplainStatus();
+        })
+
+        function loadComplainStatus(){
+            $.ajax({
+                method:'get',
+                contentType:"application/json: charset=utf-8",
+                 url: '@Url.Action("GetAllComplainStatus", "ComplainStatus")',
+                 success: function(res){
+                     if(res.success){
+                         var statusList = res.data;
+                         var htmls = '<option value="0">--select--</option>';
+                         $.each(statusList, function (i, x) {
+                             htmls += "<option value='" + x.complainStausID + "'>" + x.statusName + "</option>";
+                         })
+
+                         $('.ddlComplainStatus').html(htmls)
+                     }else{
+
+                     }
+                 },
+                 error:function(e){},
+                 beforesend:function(){
+                     //
+                 },
+                 complete: function(){
+                     //$.unblockui();
+                 }
+            });
+        }
+
         $(document).on('click', '.btnSearch', function () {
             loadData();
         });
@@ -96,5 +203,107 @@
                 }
             });
             }
+    </script>
+
+    <script>
+        $(document).on('click', '.btnTrack', function () {
+            var complainId = $(this).data('key');
+            $.ajax({
+                    method: 'get',
+                    contentType: "application/json; charset=utf-8",
+                    url: '@Url.Action("GetByComplainNo", "ComplainForm")?id=' + complainId,
+                    success: function (res) {
+                        if (res.success) {
+
+                            $('#mdlComplainDetail').modal('show');
+
+                            $('.lblComplainNo').html(res.data.complainNo);
+                            $('.lblFullname').html(res.data.fullname);
+                            $('.lblEmail').html(res.data.email);
+                            $('.lblStatement').html(res.data.statement);
+                            $('.hdnComplainID').val(res.data.complainInfoID);
+
+                            var trackInfo = res.data.trackInfos;
+
+                            var htmls = '';
+                            $.each(trackInfo, function (i, x) {
+                                htmls += "<tr>";
+                                htmls += "<td>" + x.targetStatusName + "</td>";
+                                htmls += "<td>" + x.remarks + "</td>";
+                                htmls += "<td>" + x.createdDate + "</td>";
+                                htmls += "</tr>";
+                            });
+
+                            $('.bodyTrackInfo').html(htmls);
+
+                        } else {
+                            Swal.fire({
+                                title: "error",
+                                text: res.message,
+                                icon: "error"
+                            });
+                        }
+                    },
+                    error: function (e) { },
+                    beforeSend: function () {
+
+                        //$.blockUI();
+                    },
+                    complete: function () {
+
+                        //   $.unblockUI();
+                    }
+                });
+        });
+        $(document).on('click', '.btnSubmit', function () {
+            var targetStatusID = $('.ddlComplainStatus').val() || 0;
+            var remarks = $('.txtRemarks').val() || '';
+
+            if (targetStatusID == 0) {
+                alert('Select Target Status')
+            } else if (!remarks) {
+                alert('Enter Remarks')
+            } else {
+
+                var obj = {
+                    targetStatusID: +targetStatusID,
+                    remarks: remarks,
+                    complainInfoID: +$('.hdnComplainID').val()
+                };
+                $.ajax({
+                    method: 'post',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(obj),
+                    url: '@Url.Action("Create", "ComplainStatus")',
+                   success: function (res) {
+                        if (res.success) {
+                            Swal.fire({
+                                title: "success",
+                                text: res.message,
+                                icon: "success"
+                            });
+                            $('#mdlComplainDetail').modal('hide');
+
+                        } else {
+                            Swal.fire({
+                                title: "error",
+                                text: res.message,
+                                icon: "error"
+                            });
+                        }
+                    },
+                   error: function (e) { },
+                   beforeSend: function () {
+
+                        //$.blockUI();
+                   },
+                   complete: function () {
+
+                        //   $.unblockUI();
+                   }
+                });
+            }
+
+        })
     </script>
 }

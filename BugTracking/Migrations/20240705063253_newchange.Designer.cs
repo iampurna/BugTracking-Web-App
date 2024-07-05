@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BugTracking.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240703102624_initial migration")]
-    partial class initialmigration
+    [Migration("20240705063253_newchange")]
+    partial class newchange
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -71,6 +71,36 @@ namespace BugTracking.Migrations
                     b.ToTable("Complain");
                 });
 
+            modelBuilder.Entity("BugTracking.Models.ComplainStatus", b =>
+                {
+                    b.Property<int>("ComplainStatusID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ComplainStatusID"), 1L, 1);
+
+                    b.Property<int>("CreatedBy")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("StatusCode")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("StatusName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("ComplainStatusID");
+
+                    b.ToTable("ComplainStatus");
+                });
+
             modelBuilder.Entity("BugTracking.Models.ComplainStatusTrackInfo", b =>
                 {
                     b.Property<int>("ComplainStatusTrackInfoID")
@@ -98,6 +128,8 @@ namespace BugTracking.Migrations
                     b.HasKey("ComplainStatusTrackInfoID");
 
                     b.HasIndex("ComplainInfoID");
+
+                    b.HasIndex("TargetStatusID");
 
                     b.ToTable("ComplainStatusTrackInfo");
                 });
@@ -183,7 +215,15 @@ namespace BugTracking.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("BugTracking.Models.ComplainStatus", "ComplainStatus")
+                        .WithMany()
+                        .HasForeignKey("TargetStatusID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Complain");
+
+                    b.Navigation("ComplainStatus");
                 });
 #pragma warning restore 612, 618
         }

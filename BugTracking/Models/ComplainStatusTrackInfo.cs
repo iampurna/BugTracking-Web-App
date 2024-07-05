@@ -16,8 +16,13 @@ namespace BugTracking.Models
         public DateTime CreatedDate { get; set; }
 
 
+        
+
         [ForeignKey("ComplainInfoID")]
         public virtual Complain Complain { get; set; }
+
+        [ForeignKey("TargetStatusID")]
+        public virtual ComplainStatus ComplainStatus { get; set; }
     }
 }
 

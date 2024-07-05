@@ -19,6 +19,10 @@ namespace BugTracking.Models.ViewModel
         public DateTime? IssueDate { get; set; }
 
         public DateTime? CreatedDate { get; set; }
+
+
+
+        public List<ComplainStatusTrackInfoVM> TrackInfos { get; set; }
     }
 }
 
